@@ -133,7 +133,8 @@ output_prefix='layer_binary'
 batch_size=1
 
 root=Path(".") ## added by @dv
-si=S3Images('AKIAROLUNEJXIAVBDAOV', 'aiFZz5wzLRFBwwwQ/LqZ3yshcNgv5flC3dtkpx1/') ## added by @dv
+si=S3Images('<acc key id>', '<sec access key>')
+
 
 # df_test=read_csv(root/'lst_files/2012_dry_test.lst', header=None) ## added by @dv
 # images=['greenland_picks_final_2009_2012_reformat/2012/'+item for item in df_test[0].values] ## added by @dv

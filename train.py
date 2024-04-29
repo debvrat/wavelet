@@ -66,7 +66,7 @@ net=Network(args, model=msNet())
 
 
 #%% train dataset S3
-si=S3Images('aws_access_key_id', 'aws_secret_access_key')
+si=S3Images('<acc key id>', '<sec access key>')
 
 # df_train=read_csv(root/'lst_files/2012_dry_train.lst', header=None)
 df_train=read_csv(root/'lst_files/frames_001_243_20120330_04_dv_train.lst', header=None)
